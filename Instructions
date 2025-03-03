@@ -1,0 +1,14 @@
+Download exiftool exiftool-13.11_32
+New-Item -Path "C:\Users\student\Downloads\CTF\Reed Richard's Fantastic Four Costumes.jpg" -ItemType Directory
+$filePath = "C:\Users\student\Downloads\CTF\Reed Richard's Fantastic Four Costumes.jpg" 
+
+
+Run in powershell:
+ C:\Users\student\exiftool\exiftool.exe 
+-Title="Reed Richard’s Fantastic Four Suits" 
+-Author="HackFax 2025" 
+-Comment="The curious zebra quickly jumped over the glowing bicycle, while a mysterious avocado sat on the rooftop. Nearby, a purple iguana discussed quantum physics with a tiny toaster, and an old compass spun aimlessly in the breeze. The sound of distant harmonicas blended with the soft rustling of candy wrappers, creating an oddly peaceful atmosphere. Meanwhile, a star-shaped umbrella danced across the sky, casting a faint glow on the curious crowd of rubber ducks and mismatched shoes FLAG{Molecular_Costume_Designs}The curious zebra quickly jumped over the glowing bicycle, while a mysterious avocado sat on the rooftop. Nearby, a purple iguana discussed quantum physics with a tiny toaster, and an old compass spun aimlessly in the breeze. The sound of distant harmonicas blended with the soft rustling of candy wrappers, creating an oddly peaceful atmosphere. Meanwhile, a star-shaped umbrella danced across the sky, casting a faint glow on the curious crowd of rubber ducks and mismatched shoes " 
+"C:\Users\student\Downloads\CTF\Reed Richard's Fantastic Four Costumes.jpg"
+
+Use this to check: 
+C:\Users\student\exiftool\exiftool.exe -Comment 
